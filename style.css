@@ -92,7 +92,9 @@ form {
   opacity: 0.7;
   font-size: 1rem;
   transition: color 200ms;
+
 }
+
 
 .btn.delete:hover {
   color: var(--clr-warning);
@@ -183,7 +185,7 @@ form {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: -0.5rem;
+  bottom: 0.5rem;
   height: 1px;
   background: currentColor;
   opacity: 0.1;
@@ -237,6 +239,9 @@ form {
 
 .new-task-creator .create {
   color: var(--clr-primary);
+}
+.new-task-creator  {
+  margin-top: 20px;
 }
 
 .delete-stuff {
